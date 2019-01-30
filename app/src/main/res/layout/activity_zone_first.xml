@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+   <!-- <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Zone Area First"/>-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_weight=".30"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/nagarnigam"/>
+ <Button
+     android:layout_weight=".10"
+     android:id="@+id/road"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:text="Road Repairing and Maintenance"
+     android:layout_gravity="center"
+     android:textStyle="bold"
+     android:background="@drawable/selector"
+     android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_weight=".10"
+        android:id="@+id/streetlight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/selector"
+        android:layout_marginTop="10dp"
+        android:text="Street Light"/>
+    <Button
+        android:layout_weight=".10"
+        android:id="@+id/garbage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/selector"
+        android:layout_marginTop="10dp"
+        android:text="Garbage Removal"/>
+    <Button
+        android:layout_weight=".10"
+        android:id="@+id/incroachment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/selector"
+        android:layout_marginTop="10dp"
+        android:text="Encroachment"/>
+    <Button
+        android:layout_weight=".10"
+        android:id="@+id/drinkingwater"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/selector"
+        android:text="Sewerline and Drinking Water"/>
+    <Button
+        android:layout_weight=".10"
+        android:id="@+id/others"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/selector"
+        android:text="Others"/>
+<!--    <TextView
+        android:layout_weight="0.10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffcc11"
+        android:textStyle="bold"
+        android:text="Powered by Think Computers"/>-->
+</LinearLayout>
+
+</LinearLayout>

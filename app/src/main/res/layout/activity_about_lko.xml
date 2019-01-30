@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000111">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="#000000"
+            >
+            <ImageView
+                android:layout_weight="0.30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:src="@drawable/header2"/>
+            <TextView
+                android:layout_weight="0.10"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textColor="#0000ff"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+            android:text="The city of Love and Fragrance"
+            />
+
+            <TextView
+                android:layout_weight="0.30"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textColor="#ffffff"
+                android:text="Lucknow is a well known city of palaces and gardens in India. Lucknow was originally called Lakshmanpur after the name of Lakshman Ji, the younger brother of Lord Rama, The King of Ayodhya. Early civilizations that lived here was Hulas Kahera near Karela Jhil which dates to pre historic times of Sunga Kushan era. The old city was densely populated by former governors of Awadh who were Sheikhzadas.
+Once Lucknow was the richest city in late 18th century having Nawab Asaf-ud-Daula at the Masnad of Awadh, as the governor appointed by Mughals of Delhi. This was the time in which poetry, dance, art and culture thrived under his patronage.
+This is the only city which is known for its “Pehle Aap” or “After You” etiquettes. Lucknow’s tehzeeb, nafasat, nazaqat and language is very distinct from all others in the world.
+Nawab Asaf-ud-Daula for whom it is spoken “Jisko Na De Maula Usko De Asaf-ud-Daula” had built Bara Imambara, Rumi Darwaza, which are treated as the signature buildings of Lucknow.
+Aasafi Imambara is a magical monument having Bhul-Bhulaiya in its upper storey. This building was designed by architect Kifaitullah of Delhi.
+Moharram is observed in all the Imambaras in Lucknow in which four are very famous- Aasafi Imambara, Hussainabad Imambara, Shah Najaf Imambara and Imambara Ghufran Ma’ab.
+Hussainabad area is a creation of King Mohammad Ali Shah, the third King of Awadh(1838-1842). It has gorgeous Chhota Imambara, Satkhanda Baradari(picture gallery), superior Clock-Tower. This Hussainabad Clock-Tower was built in 1881 and is the tallest (221 ft)  in the country. Behind the Hussainabad premises stands Shahi Jama Masjid which is also the landmark of the same era. This massive mosque represents Awadh eras art and glamour.
+Gen Claude Martin, a courtesan of Nawab Asaf-ud-Daula introduced European Architecture in the city. Kothi Farhat Bux was built by him and later on purchased by Nawab Sadat Ali Khan in 1798. Nawab built his Darbaar Hall (Lal Baradari) known as Qasrul Sultan just in front of Kothi Farhat Bux .
+All this area having Chatter Manzil General Kothi, Kothi Darshan Bilas, Kothi Gulistane Iram are well known as Khas Muqam.
+The Qaiserbagh heritage zone has two majestic gates known as Lakhi Darwaza. A royal palace called Baradari Qaiserbagh is centrally placed within gardens. Qaiserbagh was the dream of Last king of Awadh(1846-1859) Wajid Ali Shah. Now it contains an important Library known as Amir-ud-Daula public library in a palacial building. At the North eastern side there is a beautiful Awadhi construction as Bhatkhande Sangeet Vidyalaya and Uma Nath Bali auditorium. It was the place where the famous Parikhana of Jane Alam existed. Behind this, there is a pair of tombs known as Maqbara Nawab Saadat Ali Khan and his wife Begum Khursheed Zadi, built by his son King Ghaziuddin Haider, the first King of Awadh(1827-1837).He had constructed Imambara Shah Najaf.
+In European architecture, famous building is Residency of Lucknow as the real picture of 1857 struggle for freedom. La Constantatia (La Martiniere boys college), Musa Bagh, Dilkusha Garden are marvelous places to visit for tourists.
+Lucknow is a city famous for its Awadhi cuisine. Its seems up both in non vegetarian as Kabab, Sheermal, Kulche Nahari, Kofta etc., while the vegetarian recipes are Chola, Kachouri, Rasmalai, Malai Gilauri, Kulfi Falooda, Makkhan, Mewa Bite etc. The main bazaar for this purpose is Chowk, then Aminabad and after that Hazratganj.
+William Russell has written in 1858 for Lucknow that “Not Rome, Not Athens, Not Constantinople, not any city I have ever seen appears to me so striking and beautiful as this..”. This Heritage city is famous for its architectural values, cuisines, chikankari, superfine literature and wonder world of delightful music and famous Kathak Dance. Here one can have very charming shopping experience for the items such as Chikan Kamdani, Aari Zardozi, Silver potteries and perfumes. Clay models and other handicrafts of the region are also very popular for tourists . The mango capital of India-Malihabad is very famous across the world.
+Lucknow has marvelous buildings of early 20th century such as Charbagh Railway Station, Council House(Vidhan Sabha Bhawan), K.G.M.C, Pakka Pul (Hardings Bridge), Canning College (now Lucknow University), IT College etc.
+In 18th century (1775-1800), the trail of urdu shayars assembled here from Delhi like Mir Taqi  Mir, Mirza Rafi Sauda, Syed Inshaallah Khan ‘Insha’ etc. Afterwards it became the famous school of urdu poetry for the poets like Aatish, Nasikh, Meer Anees, Mirza Dabeer, Pt. Daya Shanker Naseem, Aarzoo Lucknavi, Pt. Brij Narayan Chakbast, Majaz Lucknavi.
+
+
+ "></TextView>
+           <TextView
+                android:layout_weight="0.05"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="लखनऊ हमारा सबसे न्यारा "
+                android:textColor="#0000ff"/>
+            <TextView
+                android:layout_weight="0.20"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textColor="#ffffff"
+                android:text=" \nलखनऊ की सदाबहार संस्कृति और सद्भाव आज मानवता के लिए अनमोल संदेश हो गई है और जिसको यह नगर पूरी तरह प्रमाणित करता है। आज की दुनिया में जिस भावना की तलाश है वो सभी धर्मों के लिए समादर, आपसी मेल-जोल और चैन से जीने की कला है, जिसमें ललित कलाओं का लगाव और अच्छी तहज़ीब भी शामिल है यह सबकुछ लखनऊ की पहचान है। यहाँ की संस्कृति में हिन्दुत्व की उदारता है तो इस्लाम का सलीका भी शामिल है। जिसका असर लखनऊ के आचार-विचार, खानपान, पहनावे, रहन-सहन, बोलचाल, शिष्टाचार, स्वागत सत्कार, अभिवादन और मनोरंजन में पूरी तरह मिलता है। यहाँ शोखी के साथ शालीनता है तो नसीहत के साथ नफ़ासत भी है।
+	अवध का साहित्य, अवध का संगीत और अवध की वास्तुकला अवध की छवि को प्रतिबिम्बित करते हैं। लखनऊ शहर में हिन्दुओं के बनवाये हुए इमामबाड़े और मस्जिदें हैं तो नवाबों द्वारा निर्मित या उनके सहयोग से सम्मानित मन्दिर भी हैं। यहाँ कर्बला दयानतउद्दौला के शिखर पर सूरज है तो सराय शेख के जगन्नाथ मन्दिर के कलश पर अर्द्धचन्द्र बना हुआ है और फिर हुसैनाबाद इमामबाड़े के शिखर पर चाॅद-सूरज साथ-साथ हैं। यहाँ प्रसिद्ध शायर ख्वाजा हैदर अली आतिश के शिष्य पण्डित दयाशंकर नसीम रहे हैं तो ठाकुर प्रसाद कथिक के शिष्य नवाब वाजिद अली शाह थे।
+जाने आलम के बाद अवध में होने वाली सत्तावनी क्रांति के समय बेगम हज़रत महल और उनके बेटे का साथ देने के लिए सबसे अधिक हिन्दू राजा और ताल्लुकेदार सामने आये थे जिन्होंने अपने प्राणों का उत्सर्ग किया या अपनी सम्पत्ति की कुर्बानी दी।
+	 लखनऊ के ठाकुरद्वारे और इमामबाड़े यहाँ की एकता के आईने हैं। वास्तुकला के एतबार से इनमें अद्भुत समानता पायी जाती है । दोनों ही जगहों पर गुम्बद का शिखर हो भी सकता है या नहीं भी। बाहरी बरामदें के बाद भीतरी कक्ष की साज-सज्जा, झाड़-फानूसों की जगमगाहट और दर-दरवाजों की बनावट लगभग एक सी होती है। अन्तर केवल इतना रहता है कि ठाकुरद्वारे में रत्नवेदी पर युगल सरकार होते हैं और इमामबाड़े में शाहनशीन पर ताज़िये रखे रहते हैं। अवध में मन्दिरों और मस्ज़िदों ,सबमें कमल के फूल, नागफन और राजपूती तोरण या मुग़ल महराबों का बराबर से इस्तेमाल है।
+लखनऊ की इमारतों पर बने हुए कली कंगूरे, सजे हुए सुनहरे छत्र, मछलीदार दरवाजे, महराबदार जालियों, कमलदलों की सज्जा और जे़वर की तरह अस्तरकारी की कारीगरी अवध वास्तुकला का एक प्रबल पक्ष है। लखनऊ का रूमी दरवाज़ा, आसफ़ी इमामबाड़ा, छतरमंजिल, हुसैनाबाद और कैसरबाग़ की इमारतें अवध वास्तुकला की विरासत हैं।
+यहाँ की ललित कला, वेष-भूषा और सभ्यता संस्कृति पर भी मेलजोल का प्रभाव है। अवध की परम्परागत हस्त कलाओं में भी हिन्दु मुस्लिम एकता का कुछ न कुछ प्रभाव मिलता है।लखनऊ के चिकन में ईरानी बेल-बूटे और अवध की अल्पनाएॅ एक साथ गले मिलती हैं, जिनमें कंगन और बिजली पंखुड़ी और पत्ते, कैरियों और मछलियों की धूम है। लखनऊ के इत्र और ख़स, मोतियां, हिना और शमामा लाजवाब होते हैं। लखनवी मिट्टी के खूबसूरत खिलौनों में भी जो नर्मी लोच-लचक या हुस्न पाया जाता है वो भी अवध की तबियत का एक उदाहरण है। चित्रकारी में और क़लमी तस्वीरों में भी अवध का महत्व दिखाई देता है। ये चित्र बहुत अधिक संख्या में न होने पर भी अपनी शैली का परिचय देते हैं। यहाँ की सौ दो सौ बरस पुरानी कुछ इमारतों में भी रंगीन भित्ति चित्र मिलते हैं।
+साहित्य संगीत के सन्दर्भ में अवध के नवाबों की अभिरुचि तो थी ही कुछ न कुछ उनका दखल भी था। गुलाब नबी, शोरी जैसे टप्पे के गायक अवध में आकर बस चुके थे। अवध दरबार छज्जू खाँ के लिए प्रसिद्ध रहा है कि उन्होंने ही सुरसिंगार का आविष्कार किया।
+नवाब केे ज़माने में ही लखनऊ में कथक का घराना काय़म हुआ और बड़े-बड़े शायरों ने लखनवी शायरी को संवारा। जाने आलम के ज़माने में लखनऊ संगीत, नृत्य, नाट्य, कला का घराना बन गया।
+ब्रिटिश दौर में भी लखनऊ को चारबाग़ स्टेशन, कौंसिल हाऊस ;विधान सभा, मेडिकल काॅलेज, कैनिंग काॅलेज (लखनऊ विश्वविधायलय),जी0पी0ओ0, हुसैनाबाद क्लाॅक टाॅवर जैसे उपहार प्राप्त हुए। स्वतंत्रता प्राप्ति के बाद लखनऊ के मूल्यों को अच्छी तरह पहचाना गया और तब से लेकर अब तक उत्तर प्रदेश की इस राजधानी को नित्य नये गौरव से संवारा गया। आज भी लखनऊ को अपने सामाजिक संगठन और अपनी अनमोल जीवन शैली के लिये सारी दुनिया में याद किया जाता है। "/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

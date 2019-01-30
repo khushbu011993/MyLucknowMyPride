@@ -1,0 +1,444 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingBottom="16dp" tools:context=".MainActivity">
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:background="@drawable/gradiant"
+        android:src="@drawable/pic_1"/>-->
+
+    <LinearLayout
+        android:layout_weight="0.15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/aboutlko"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/home1"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Home"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/publicservices"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/public_services_2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Public Services"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/medicalservice"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/medicalservices_1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Medical Services"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/tourism"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/tourism1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Tourism"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/municipalcorporation"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/mc_corporation"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:layout_gravity="center_horizontal"
+                android:text="Municipal Corporation"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/govtscheem"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/govt_scheme4"
+                android:foregroundGravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Govt Schemes"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/publicgrrivance"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/pg_grivance"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Public Grievance"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/maps"
+                android:foregroundGravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Map"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/lkomahotsavhome"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/icon1"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Lucknow Mahotsav"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/ganjinghome"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/carnival"
+                android:foregroundGravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Ganjing Carnival"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/contact"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/suggestion"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Suggestions"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+android:id="@+id/gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/gallerys"
+                android:foregroundGravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Gallery"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/contactdm"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:src="@drawable/contactdm"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.20"
+                android:text="Contact"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App by District Administration Lucknow"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#006600"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by Think Computers"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#006600"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|Aap ka App|"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#A00000"
+        android:textStyle="bold"
+        />
+    </LinearLayout>

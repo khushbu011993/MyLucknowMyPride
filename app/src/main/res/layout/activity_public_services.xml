@@ -1,0 +1,322 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingBottom="16dp" tools:context=".MainActivity">
+    
+    <LinearLayout
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/hospital"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/hospital1"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Hospitals"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/railwaystation"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/rail"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Railway Stations"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/busstation"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/bus"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Bus Stations"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/schools"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/schools"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Schools"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/firestation"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/agnisaman"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:layout_gravity="center_horizontal"
+                android:text="Fire Stations"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/airport"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/airport1"
+                android:foregroundGravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Airport"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/postoffice"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/gpo"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Post Offices"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/policestation"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/police"
+                android:foregroundGravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Police Stations"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/shopingmalls"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/mall"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Shopping Malls"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.50"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/importantservices"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:src="@drawable/important"
+                android:foregroundGravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:text="Important Services"
+                android:gravity="center_horizontal"
+                android:textColor="#0000ff"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffcc11"
+        android:text="Powered by Think Computers"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:gravity="center"/>-->
+</LinearLayout>

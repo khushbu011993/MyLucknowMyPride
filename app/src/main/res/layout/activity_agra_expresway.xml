@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#ffffff"
+                android:src="@drawable/header2"/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/highway1"/>
+           <!-- <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textSize="18dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#0000ff"
+                android:text="Lucknow_Agra Expressway"/>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="The Agra Lucknow Expressway is an under construction 302 km (188 mi) controlled-access highway or expressway, being constructed between the cities of Agra and Lucknow in the Indian state of Uttar Pradesh. It is a 6-lane expressway which is expandable to 8-lanes in future and is expected to be constructed until the end of 2016."></TextView>
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="#ffcc11"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Powered by Think Computers"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

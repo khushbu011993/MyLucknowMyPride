@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+   <Button
+       android:layout_weight="1"
+       android:layout_marginTop="5dp"
+       android:id="@+id/iay"
+       android:background="@drawable/selector"
+       android:layout_height="0dp"
+       android:layout_width="match_parent"
+       android:text="Indra Awas Yojna"/>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/lgay"
+        android:background="@drawable/selector"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Manraiga"/>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/snidhi"
+        android:background="@drawable/selector"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Sansad Nidhi"/>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rdsrf"
+        android:background="@drawable/selector"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Rural Development Schemes"/>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sagy"
+        android:background="@drawable/selector"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Sansad Adarsh Gram Yojna"/>
+<!--
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nrlm"
+        android:background="@drawable/selector"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="ManRaiga"/>-->
+
+    <Button
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/mahatma"
+        android:background="@drawable/selector"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:text="Mahatma Gandhi National"/>
+   <!-- <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Powered by Think Computers"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffcc11"
+        android:textStyle="bold"
+        android:gravity="center"/>-->
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   >
+
+
+    <Button
+        android:id="@+id/cbse"
+        android:background="@drawable/selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CBSE BOARD SCHOOL"/>
+    <Button
+        android:id="@+id/icse"
+        android:background="@drawable/selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ICSE BOARD SCHOOL"/>
+    <Button
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector"
+        android:layout_marginTop="20dp"
+        android:text="U.P BOARD SCHOOL"/>
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#ffcc11"
+        android:textStyle="bold"
+        android:text="Powered by Think Computers"
+        android:layout_gravity="center"
+        android:gravity="center"/>-->
+
+</LinearLayout>

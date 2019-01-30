@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+         <!--   <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff22ff"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Welcome To Lucknow Mahotsav"/>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff"
+                android:textSize="18dp"
+                android:text="Lucknow Mahotsav"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" The Fascinating city of Lucknow has ever been associated with a rich tradition of hospitality, exotic cuisine and architectural grandeur. Lucknow attained unparalleled heights of excellence in art, craft and culture during the period of Nawabs. Lucknow Mahotsava is organized every year in the month of November / December to showcase the rich cultural heritage of Lucknow. This year, it will be organized from 27th January to 7th February, 2016 at Regional Park, Sector-L, Aashiyana Lucknow.
+
+This year Famous artistes would gracing the Mahotsav. Mahotsava provides an opportunity to hundreds of awarded artisans from more than 20 states of India to display their exquisite handicrafts. The Mahotsava also provides a platform to upcoming talented artists and venue for sportsmen to revive traditional sports and events like Kite competition, Ekka Tinga race, Vintage Car rally etc.
+
+."/>
+          <!--  <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="#ffcc11"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Powered by Think Computers"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

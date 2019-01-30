@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+     >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:src="@drawable/header2"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Lucknow Mahotsav:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lucknow Mahotsav is organized every year to showcase the Art and Culture of Uttar Pradesh and in particular Lucknavi ‘Tehzeeb’ so as to promote Tourism. The year 1975-76 was observed and organized in South Asia as The Tourism Year. On this occasion, in the motive to promote Lucknow’s Art, Culture and Tourism for national and international tourists, the decision to organize the Lucknow Festival was taken. During this period,with exception to a few years,Lucknow Mahotsav has been organized every year.\nThis year,the festival is being organized from 27th January to 7th February 2016 in Regional Park, Sector-L, Ashiyana and Bangla Bazaar Lucknow. Lucknow Mahotsav evening would be adorned with on one hand by celebrities and famous artists’ performances and on the other by renounced classical singers. In this program the upcoming local artists have been provided a special representation on the cultural evenings. In addition, the national as well as local Poets/ Shayars have been provided due representation through Kavi Sammelan and Mushayara.
+
+Lucknow Mahotsav would be inaugurated on 27th January 2016, by the Honorable Chief Minister of Uttar Pradesh at the evening 6:30 p.m which will be followed by a theme song presentation.\n
+
+Agricultural Fair has been organized to accommodate the participation and representation of peasants. The national as well as state awardees and craftsmen have been allowed to put up stall without any cost in the Crafts Fair. In addition, Development Commissioner of India has been also allotted a stall. Crafts work from approximately 20 regions would be displayed in the Crafts fair.
+
+To give the Exhibition a grand outlook,all the stalls will have similar facials. The other major attractions would be the replica of the Hussainabad Clock Tower, the exhibit from different public attraction place across the state and theme pavilion. Lucknow’s Art and Culture is also portrayed through mannequins which have been displayed at various places at the Mahotsav premises.
+
+On this event of Lucknow Mahotsav other attractions like ‘Ekka Tonga’ Race, Kite Competition, Boat Race, Vintage Car Rally, Youth festival and Drama Competition are being organized for public interest. Participation is invited from various age groups in these events.This year’s Lucknow Mahotsav will have wrestling and cycling which are set to debut in the annual event.Duty for cleanliness and the parking arrangements is been done by Nagar Nigam.
+
+For public convenience transport 100 buses are arranged by the Uttar Pradesh State Road Transport Corporation. In addition auto / maxi cab etc have also been arranged for special transport have been specially tagged for Mahotsav purposes. For security maintenance,CCTV cameras have been placed strategically across the ground.Nearby police station is always on alert and security agency has been hired to provide guards. All the routes to Mahotsav venue place will have police patrolling on it.Like the years gone by,this year also the entry fee is Rs.10/-. The entry tickets to the Mahotsav are available at the entry as well as to other renowned places in the city .
+
+Lucknow Mahotsav Samiti has installed Gas Balloons, Public Hoardings and Banners etc. all over the city for the publicity of this Grand Event. Other Departments like Tourism, Local District Administration, Police Department, Lucknow Developmental Authority, Jal Nigam and Electricity Board are the helping hands of Lucknow Mahotsav Samiti."
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:src="@drawable/header2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/metro"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        android:textSize="18dp"
+        android:text="Lucknow Metro: Lifeline of Lucknow"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aiming to bring world-class infrastructure to the city of Lucknow, the Hon'ble Chief Minister of Uttar Pradesh announced the Lucknow Metro Rail Project in his Budget speech for the year 2013-14. The project will provide the inhabitants and visitors to Lucknow a world-class Mass Rapid Transit System that is convenient, safe, fast, reliable and cost-effective. For seamless implementation of the Project, a SPV in the form of a company known as Lucknow Metro Rail Corporation Limited has been incorporated by the Government of Uttar Pradesh."/>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

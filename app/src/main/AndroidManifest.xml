@@ -1,0 +1,535 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.think.mylucknowmypride">
+
+        <supports-screens android:smallScreens="true"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:xlargeScreens="true"
+            android:anyDensity="true" />
+
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.CALL_PHONE" />
+
+        <application
+            android:allowBackup="true"
+            android:icon="@mipmap/logomypride"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+
+
+            <activity
+                android:name=".SplashScreen"
+                android:label="@string/app_name" >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+            <activity
+                android:name=".MobileNoActivity"
+                android:label="@string/title_activity_mobile_no" >
+            </activity>
+            <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/app_name" >
+            </activity>
+            <activity
+                android:name=".ContactActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_contact" >
+            </activity>
+            <activity
+                android:name=".AboutLkoActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_about_lko" >
+            </activity>
+            <activity
+                android:name=".PublicGrivance"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_public_grivance" >
+            </activity>
+            <activity
+                android:name=".MedicalServices"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_medical_services" >
+            </activity>
+            <activity
+                android:name=".TourismActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_tourism" >
+            </activity>
+            <activity
+                android:name=".MunicipalActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_municipal" >
+            </activity>
+            <activity
+                android:name=".GovtScheem"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_govt_scheem" >
+            </activity>
+            <activity
+                android:name=".PublicServices"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_public_services" >
+            </activity>
+            <activity
+                android:name=".MapActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_map" >
+            </activity>
+            <activity
+                android:name=".AmbulanceServices"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_ambulance_services" >
+            </activity>
+            <activity
+                android:name=".GovtHospital"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_govt_hospital" >
+            </activity>
+            <activity
+                android:name=".BloodBankActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_blood_bank" >
+            </activity>
+            <activity
+                android:name=".CMORoom"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_cmoroom" >
+            </activity>
+            <activity
+                android:name=".TourismInformation"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_tourism_information" >
+            </activity>
+            <activity
+                android:name=".ZoneFirst"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_first" >
+            </activity>
+            <activity
+                android:name=".ZoneSecond"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_second" >
+            </activity>
+            <activity
+                android:name=".ZoneThird"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_third" >
+            </activity>
+            <activity
+                android:name=".ZoneFourth"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_fourth" >
+            </activity>
+            <activity
+                android:name=".ZoneFifth"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_fifth" >
+            </activity>
+            <activity
+                android:name=".ZoneSixth"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_sixth" >
+            </activity>
+            <activity
+                android:name=".ZoneSeventh"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_seventh" >
+            </activity>
+            <activity
+                android:name=".ZoneEight"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_zone_eight" >
+            </activity>
+            <activity
+                android:name=".HospitalActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_hospital" >
+            </activity>
+            <activity
+                android:name=".RailwayStationActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_railway_station" >
+            </activity>
+            <activity
+                android:name=".BusStationActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_bus_station" >
+            </activity>
+            <activity
+                android:name=".SchoolsActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_schools" >
+            </activity>
+            <activity
+                android:name=".FireStationActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_fire_station" >
+            </activity>
+            <activity
+                android:name=".PoliceStationActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_police_station" >
+            </activity>
+            <activity
+                android:name=".ShopingActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_shoping" >
+            </activity>
+
+            <meta-data
+                android:name="com.google.android.maps.v2.API_KEY"
+                android:value="AIzaSyBprL507eGkELLzb5fgFmECGSmufnnE8-4"/>
+           <!-- <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />-->
+
+            <activity
+                android:name=".OTPActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_otp" >
+            </activity>
+            <activity
+                android:name=".CentralBoard"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_central_board" >
+            </activity>
+            <activity
+                android:name=".IcseActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_icse" >
+            </activity>
+            <activity
+                android:name=".UpBoardActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_up_board" >
+            </activity>
+            <activity
+                android:name=".RoadActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_road" >
+            </activity>
+            <activity
+                android:name=".StreetLightActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_street_light" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_garbage_removal" >
+            </activity>
+            <activity
+                android:name=".DrinkingActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_drinking" >
+            </activity>
+            <activity
+                android:name=".EncroachmentActivity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_encroachment" >
+            </activity>
+            <activity
+                android:name=".RoadZone2Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_road_zone2" >
+            </activity>
+            <activity
+                android:name=".StreetLightZone2Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_street_light_zone2" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalZone2Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_garbage_removal_zone2" >
+            </activity>
+            <activity
+                android:name=".EncroachmentZone2Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_encroachment_zone2" >
+            </activity>
+            <activity
+                android:name=".DrinkingWaterZone2Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_drinking_water_zone2" >
+            </activity>
+            <activity
+                android:name=".RoadZone3Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_road_zone3" >
+            </activity>
+            <activity
+                android:name=".StreetLightZone3Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_street_light_zone3" >
+            </activity>
+            <activity
+                android:name=".DrinkingWaterZone3Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_drinking_water_zone3" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalZone3Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_garbage_removal_zone3" >
+            </activity>
+            <activity
+                android:name=".EncroachmentZone3Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_encroachment_zone3" >
+            </activity>
+            <activity
+                android:name=".RoadZone4Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_road_zone4" >
+            </activity>
+            <activity
+                android:name=".StreetLightZone4Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_street_light_zone4" >
+            </activity>
+            <activity
+                android:name=".DrinkigWaterZone4Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_drinkig_water_zone4" >
+            </activity>
+            <activity
+                android:name=".EncraochmentZone4Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_encraochment_zone4" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalZone4Activity"
+                android:screenOrientation="portrait"
+                android:label="@string/title_activity_garbage_removal_zone4" >
+            </activity>
+            <activity
+                android:name=".RoadZone5Activity"
+                android:label="@string/title_activity_road_zone5" >
+            </activity>
+            <activity
+                android:name=".StreetLightZone5Activity"
+                android:label="@string/title_activity_street_light_zone5" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalZone5Activity"
+                android:label="@string/title_activity_garbage_removal_zone5" >
+            </activity>
+            <activity
+                android:name=".EncroachmentZone5Activity"
+                android:label="@string/title_activity_encroachment_zone5" >
+            </activity>
+            <activity
+                android:name=".DrinkigWaterZone5Activity"
+                android:label="@string/title_activity_drinkig_water_zone5" >
+            </activity>
+            <activity
+                android:name=".Gallery"
+                android:label="@string/title_activity_gallery" >
+            </activity>
+            <activity
+                android:name=".RoadZone6Activity"
+                android:label="@string/title_activity_road_zone6" >
+            </activity>
+            <activity
+                android:name=".StreetLightZone6Activity"
+                android:label="@string/title_activity_street_light_zone6" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalZone6Activity"
+                android:label="@string/title_activity_garbage_removal_zone6" >
+            </activity>
+            <activity
+                android:name=".EncroachmentZone6Activity"
+                android:label="@string/title_activity_encroachment_zone6" >
+            </activity>
+            <activity
+                android:name=".DrinkigWaterZone6Activity"
+                android:label="@string/title_activity_drinkig_water_zone6" >
+            </activity>
+            <activity
+                android:name=".DrinkigWaterZone7Activity"
+                android:label="@string/title_activity_drinkig_water_zone7" >
+            </activity>
+            <activity
+                android:name=".EncroachmentZone7Activity"
+                android:label="@string/title_activity_encroachment_zone7" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalZone7Activity"
+                android:label="@string/title_activity_garbage_removal_zone7" >
+            </activity>
+            <activity
+                android:name=".RoadZone7Activity"
+                android:label="@string/title_activity_road_zone7" >
+            </activity>
+            <activity
+                android:name=".StreetLightZone7Activity"
+                android:label="@string/title_activity_street_light_zone7" >
+            </activity>
+            <activity
+                android:name=".DrinkigWaterZone8Activity"
+                android:label="@string/title_activity_drinkig_water_zone8" >
+            </activity>
+            <activity
+                android:name=".EncroachmentZone8Activity"
+                android:label="@string/title_activity_encroachment_zone8" >
+            </activity>
+            <activity
+                android:name=".GarbageRemovalZone8Activity"
+                android:label="@string/title_activity_garbage_removal_zone8" >
+            </activity>
+            <activity
+                android:name=".RoadZone8Activity"
+                android:label="@string/title_activity_road_zone8" >
+            </activity>
+            <activity
+                android:name=".StreetLightZone8Activity"
+                android:label="@string/title_activity_street_light_zone8" >
+            </activity>
+            <activity
+                android:name=".PostOfiiceActivity"
+                android:label="@string/title_activity_post_ofiice" >
+            </activity>
+            <activity
+                android:name=".AirportActivity"
+                android:label="@string/title_activity_airport" >
+            </activity>
+            <activity
+                android:name=".About_Municipal"
+                android:label="@string/title_activity_about__municipal" >
+            </activity>
+            <activity
+                android:name=".Important_Service_Activity"
+                android:label="@string/title_activity_important__service_" >
+            </activity>
+            <activity
+                android:name=".Others1Activity"
+                android:label="@string/title_activity_others1" >
+            </activity>
+            <activity
+                android:name=".Other2Activity"
+                android:label="@string/title_activity_other2" >
+            </activity>
+            <activity
+                android:name=".Other3Activity"
+                android:label="@string/title_activity_other3" >
+            </activity>
+            <activity
+                android:name=".Other4Activity"
+                android:label="@string/title_activity_other4" >
+            </activity>
+            <activity
+                android:name=".Other5Activity"
+                android:label="@string/title_activity_other5" >
+            </activity>
+            <activity
+                android:name=".Other6Activity"
+                android:label="@string/title_activity_other6" >
+            </activity>
+            <activity
+                android:name=".Other7Activity"
+                android:label="@string/title_activity_other7" >
+            </activity>
+            <activity
+                android:name=".Other8Activity"
+                android:label="@string/title_activity_other8" >
+            </activity>
+            <activity
+                android:name=".DmContactActivity"
+                android:label="@string/title_activity_dm_contact" >
+            </activity>
+            <activity
+                android:name=".WhatsAppActivity"
+                android:label="@string/title_activity_whats_app" >
+            </activity>
+            <activity
+                android:name=".MonumentsActivity"
+                android:label="@string/title_activity_monuments" >
+            </activity>
+            <activity
+                android:name=".LucknowMahotsavActivity"
+                android:label="@string/title_activity_lucknow_mahotsav" >
+            </activity>
+            <activity
+                android:name=".GanjingcarnivalActivity"
+                android:label="@string/title_activity_ganjingcarnival" >
+            </activity>
+            <activity
+                android:name=".MegaProjectsActivity"
+                android:label="@string/title_activity_mega_projects" >
+            </activity>
+            <activity
+                android:name=".LkoFullImage"
+                android:label="@string/title_activity_lko_full_image" >
+            </activity>
+            <activity
+                android:name=".Ganjingfullimage"
+                android:label="@string/title_activity_ganjingfullimage" >
+            </activity>
+            <activity
+                android:name=".LucknowMetro"
+                android:label="@string/title_activity_lucknow_metro" >
+            </activity>
+            <activity
+                android:name=".Megalucknowmahotsa"
+                android:label="@string/title_activity_megalucknowmahotsa" >
+            </activity>
+            <activity
+                android:name=".AgraExpresway"
+                android:label="@string/title_activity_agra_expresway" >
+            </activity>
+            <activity
+                android:name=".MonuementsfullActivity"
+                android:label="@string/title_activity_monuementsfull" >
+            </activity>
+            <activity
+                android:name=".HomeGanjingCarnival"
+                android:label="@string/title_activity_home_ganjing_carnival" >
+            </activity>
+            <activity
+                android:name=".HomeLucknowMahotsav"
+                android:label="@string/title_activity_home_lucknow_mahotsav" >
+            </activity>
+            <activity
+                android:name=".AboutlkoMahotsav"
+                android:label="@string/title_activity_aboutlko_mahotsav" >
+            </activity>
+            <activity
+                android:name=".LucknowMahotsav014Activity"
+                android:label="@string/title_activity_lucknow_mahotsav014" >
+            </activity>
+            <activity
+                android:name=".AboutGanjingActivity"
+                android:label="@string/title_activity_about_ganjing" >
+            </activity>
+            <activity
+                android:name=".LkoFullImage14"
+                android:label="@string/title_activity_lko_full_image14" >
+            </activity>
+            <activity
+                android:name=".Lucknowmahotsav2015"
+                android:label="@string/title_activity_lucknowmahotsav2015" >
+            </activity>
+            <activity
+                android:name=".Fullimage2015Activity"
+                android:label="@string/title_activity_fullimage2015" >
+            </activity>
+            <activity
+                android:name=".DardaActivity"
+                android:label="@string/title_activity_darda" >
+            </activity>
+        </application>
+</manifest>

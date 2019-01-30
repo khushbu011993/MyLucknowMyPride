@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:src="@drawable/header2"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ganging1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Ganjing Carnival:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any historical city in the world stands out because of its heritage, culture, cuisine, languages, dialects, people and the typical style of living. Lucknow city, a unique concoction of all such factors is also a representative of the British influence that makes Lucknow a well-known city on the map of Indian tourism. Every city bears a disparate blend of charm and essence, an air about their ambiences, which are its earmark and make them unique in its own way. The parks, markets, monuments, public buildings, are the essential part of the identity of any city.
+
+Hazratganj is not only a market, but also a representative of the city’s rich heritage and culture, which still continues to attract the generation as it used to era’s back. The true essence of the Nawabi era can be relished completely by spending an evening at this place. This ravishing evening can be termed as ‘Ganjing’ and one can truly comprehend with,if he/she is a true Lucknowite at heart.
+
+The 200+ year-old elite shopping and entertainment zone has seen quite a happening past. It was in 1810 that Nawab of Oudh, Saadat Ali Khan came up with such a place in his mind and this dream of his was nurtured by Nawab Naseer-ud-Din Haider who is accredited with construction of numerous Kothis and buildings in that area. The area known by the name Munawwar Baksh, probably because of Munawwar Kothi of that area was renamed as Hazrat Ganj years later in 1842, rendering its name from the fourth King of Oudh, Amjad Ali Shah who was often lovingly called ‘Hazarat’.\nThe duration of the Ganjing Carnival is five hours, starting from 5:00 PM till 10:00 PM. The setup included a central stage at the main crossroad for music and dance performance, which was enough to take away hearts of millions by the dazzling decoration and performance to be conducted. Food court, photo exhibition, selfie zone, art gallery, nukkad natak, flash mobs, kid zone, show your talent are just a few to name. You name it and find it at one or the other place in the overall scenario. The place was not just perfect for the fun lovers but is equally lively for the food lovers. The food zone is set up in front of L.I.C building, where one can find all kind of food to relish their taste buds starting from the Tunday Kebabi to Raheem’s; from ZamZam Biryani (Meeraj) to Naushijaan, and the icing on the cake are Prakash Kulfi and Gloria Ice-Cream.Where the youngsters enjoy the music and dance, the aged go down the memory lane to their times when the older version of carnival used to take place, in 1990s, and continued for a week-long time. It used to start during the Christmas duration and was purely based on the pattern of the Goa carnival. The DJ replaced the cassette players, modern music replaced the shehnai performance, art show replaced the puppet show, and the camel rides etc were a few changes that took place in the years that followed."></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
